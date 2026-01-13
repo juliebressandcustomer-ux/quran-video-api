@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Dossiers de travail (vides au départ)
+uploads/*
+outputs/*
+temp/*
+
+# Mais garder le dossier backgrounds avec les vidéos
+!backgrounds/
+
+# Fichiers locaux
+*.mp3
+*.ass
+.DS_Store
+.env
+
+# Git
+.git
+.gitignore
+
+# IDE
+.vscode/
+.idea/
+
+# Documentation
+*.md
+!README.md
